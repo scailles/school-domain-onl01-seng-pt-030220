@@ -29,7 +29,7 @@ class School
   end
 
 def sort
-  @roster.sort[grade]
+  @roster.each do |
 end
   
 end
