@@ -1,6 +1,5 @@
 class School
-  
-  attr_accessor :student, :class, :grade
+
   
   attr_reader :name
   
@@ -16,6 +15,7 @@ class School
   
   def add_student(name, grade)
     @student_name=student_name
+    @grade= grade
    if !(@roster.include?(@roster[grade]))
      @roster[grade]=grade
      @roster[grade] << student_name
